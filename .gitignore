@@ -1,0 +1,17 @@
+node_modules/
+output/
+dist/
+
+.env
+.env.local
+
+.DS_Store
+
+*.log
+
+coverage/
+
+.idea/
+.vscode/
+
+*.pdf
