@@ -1,9 +1,6 @@
-export type PdfFormat =
-    | 'A4'
-    | 'A3'
-    | 'A5'
-    | 'Letter'
-    | 'Legal';
+import { PDFOptions } from 'puppeteer';
+
+export type PdfFormat = NonNullable<PDFOptions['format']>;
 
 export interface MarginOptions {
     top: string;
